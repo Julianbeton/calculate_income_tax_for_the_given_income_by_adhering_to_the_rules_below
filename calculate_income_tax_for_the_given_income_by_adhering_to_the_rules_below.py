@@ -13,12 +13,13 @@ taxable_income = int(input("\033[1;32;40mEnter a taxable income: "))
 print("taxable income is:", taxable_income)
 
 if taxable_income < 20000:
-   
+    print("income tax payable is $0")
 
 elif taxable_income == 20000:
     income_tax = 10000/10
-    
+    print("income tax payable is: $", income_tax)
 
 else: 
     income_tax = ((taxable_income - 20000)/5)+1000
+    print("income tax payable is: $", income_tax)
   
