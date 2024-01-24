@@ -9,4 +9,5 @@
 # 10000*0% + 10000*10%  + 25000*20% = $6000.
 
 
-
+taxable_income = int(input("Enter a taxable income: "))
+print("taxable income is:", taxable_income)
